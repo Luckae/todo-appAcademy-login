@@ -1,0 +1,714 @@
+ /home/codeflar/nodevenv/codeflare-api/10/lib/node_modules/mysql/lib/protocol/Parser.js:437
+      throw err; // Rethrow non-MySQL errors
+      ^
+
+TypeError: Cannot read property 'password' of undefined
+    at Query.db.query (/home/codeflar/codeflare-api/server.js:101:10)
+    at Query.<anonymous> (/home/codeflar/nodevenv/codeflare-api/10/lib/node_modules/mysql/lib/Connection.js:526:10)
+    at Query._callback (/home/codeflar/nodevenv/codeflare-api/10/lib/node_modules/mysql/lib/Connection.js:488:16)
+    at Query.Sequence.end (/home/codeflar/nodevenv/codeflare-api/10/lib/node_modules/mysql/lib/protocol/sequences/Sequence.js:83:24)
+    at Query._handleFinalResultPacket (/home/codeflar/nodevenv/codeflare-api/10/lib/node_modules/mysql/lib/protocol/sequences/Query.js:149:8)
+    at Query.EofPacket (/home/codeflar/nodevenv/codeflare-api/10/lib/node_modules/mysql/lib/protocol/sequences/Query.js:133:8)
+    at Protocol._parsePacket (/home/codeflar/nodevenv/codeflare-api/10/lib/node_modules/mysql/lib/protocol/Protocol.js:291:23)
+    at Parser._parsePacket (/home/codeflar/nodevenv/codeflare-api/10/lib/node_modules/mysql/lib/protocol/Parser.js:433:10)
+    at Parser.write (/home/codeflar/nodevenv/codeflare-api/10/lib/node_modules/mysql/lib/protocol/Parser.js:43:10)
+    at Protocol.write (/home/codeflar/nodevenv/codeflare-api/10/lib/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+events.js:174
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:111:27)
+Emitted 'error' event at:
+    at Connection._handleProtocolError (/home/codeflar/nodevenv/codeflare-api/10/lib/node_modules/mysql/lib/Connection.js:423:8)
+    at Protocol.emit (events.js:198:13)
+    at Protocol._delegateError (/home/codeflar/nodevenv/codeflare-api/10/lib/node_modules/mysql/lib/protocol/Protocol.js:398:10)
+    at Protocol.handleNetworkError (/home/codeflar/nodevenv/codeflare-api/10/lib/node_modules/mysql/lib/protocol/Protocol.js:371:10)
+    at Connection._handleNetworkError (/home/codeflar/nodevenv/codeflare-api/10/lib/node_modules/mysql/lib/Connection.js:418:18)
+    at Socket.emit (events.js:198:13)
+    at emitErrorNT (internal/streams/destroy.js:91:8)
+    at emitErrorAndCloseNT (internal/streams/destroy.js:59:3)
+    at process._tickCallback (internal/process/next_tick.js:63:19)
+events.js:174
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:111:27)
+Emitted 'error' event at:
+    at Connection._handleProtocolError (/home/codeflar/nodevenv/codeflare-api/10/lib/node_modules/mysql/lib/Connection.js:423:8)
+    at Protocol.emit (events.js:198:13)
+    at Protocol._delegateError (/home/codeflar/nodevenv/codeflare-api/10/lib/node_modules/mysql/lib/protocol/Protocol.js:398:10)
+    at Protocol.handleNetworkError (/home/codeflar/nodevenv/codeflare-api/10/lib/node_modules/mysql/lib/protocol/Protocol.js:371:10)
+    at Connection._handleNetworkError (/home/codeflar/nodevenv/codeflare-api/10/lib/node_modules/mysql/lib/Connection.js:418:18)
+    at Socket.emit (events.js:198:13)
+    at emitErrorNT (internal/streams/destroy.js:91:8)
+    at emitErrorAndCloseNT (internal/streams/destroy.js:59:3)
+    at process._tickCallback (internal/process/next_tick.js:63:19)
+events.js:174
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:111:27)
+Emitted 'error' event at:
+    at Connection._handleProtocolError (/home/codeflar/nodevenv/codeflare-api/10/lib/node_modules/mysql/lib/Connection.js:423:8)
+    at Protocol.emit (events.js:198:13)
+    at Protocol._delegateError (/home/codeflar/nodevenv/codeflare-api/10/lib/node_modules/mysql/lib/protocol/Protocol.js:398:10)
+    at Protocol.handleNetworkError (/home/codeflar/nodevenv/codeflare-api/10/lib/node_modules/mysql/lib/protocol/Protocol.js:371:10)
+    at Connection._handleNetworkError (/home/codeflar/nodevenv/codeflare-api/10/lib/node_modules/mysql/lib/Connection.js:418:18)
+    at Socket.emit (events.js:198:13)
+    at emitErrorNT (internal/streams/destroy.js:91:8)
+    at emitErrorAndCloseNT (internal/streams/destroy.js:59:3)
+    at process._tickCallback (internal/process/next_tick.js:63:19)
+events.js:174
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:111:27)
+Emitted 'error' event at:
+    at Connection._handleProtocolError (/home/codeflar/nodevenv/codeflare-api/10/lib/node_modules/mysql/lib/Connection.js:423:8)
+    at Protocol.emit (events.js:198:13)
+    at Protocol._delegateError (/home/codeflar/nodevenv/codeflare-api/10/lib/node_modules/mysql/lib/protocol/Protocol.js:398:10)
+    at Protocol.handleNetworkError (/home/codeflar/nodevenv/codeflare-api/10/lib/node_modules/mysql/lib/protocol/Protocol.js:371:10)
+    at Connection._handleNetworkError (/home/codeflar/nodevenv/codeflare-api/10/lib/node_modules/mysql/lib/Connection.js:418:18)
+    at Socket.emit (events.js:198:13)
+    at emitErrorNT (internal/streams/destroy.js:91:8)
+    at emitErrorAndCloseNT (internal/streams/destroy.js:59:3)
+    at process._tickCallback (internal/process/next_tick.js:63:19)
+events.js:174
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:111:27)
+Emitted 'error' event at:
+    at Connection._handleProtocolError (/home/codeflar/nodevenv/codeflare-api/10/lib/node_modules/mysql/lib/Connection.js:423:8)
+    at Protocol.emit (events.js:198:13)
+    at Protocol._delegateError (/home/codeflar/nodevenv/codeflare-api/10/lib/node_modules/mysql/lib/protocol/Protocol.js:398:10)
+    at Protocol.handleNetworkError (/home/codeflar/nodevenv/codeflare-api/10/lib/node_modules/mysql/lib/protocol/Protocol.js:371:10)
+    at Connection._handleNetworkError (/home/codeflar/nodevenv/codeflare-api/10/lib/node_modules/mysql/lib/Connection.js:418:18)
+    at Socket.emit (events.js:198:13)
+    at emitErrorNT (internal/streams/destroy.js:91:8)
+    at emitErrorAndCloseNT (internal/streams/destroy.js:59:3)
+    at process._tickCallback (internal/process/next_tick.js:63:19)
+events.js:174
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:111:27)
+Emitted 'error' event at:
+    at Connection._handleProtocolError (/home/codeflar/nodevenv/codeflare-api/10/lib/node_modules/mysql/lib/Connection.js:423:8)
+    at Protocol.emit (events.js:198:13)
+    at Protocol._delegateError (/home/codeflar/nodevenv/codeflare-api/10/lib/node_modules/mysql/lib/protocol/Protocol.js:398:10)
+    at Protocol.handleNetworkError (/home/codeflar/nodevenv/codeflare-api/10/lib/node_modules/mysql/lib/protocol/Protocol.js:371:10)
+    at Connection._handleNetworkError (/home/codeflar/nodevenv/codeflare-api/10/lib/node_modules/mysql/lib/Connection.js:418:18)
+    at Socket.emit (events.js:198:13)
+    at emitErrorNT (internal/streams/destroy.js:91:8)
+    at emitErrorAndCloseNT (internal/streams/destroy.js:59:3)
+    at process._tickCallback (internal/process/next_tick.js:63:19)
+events.js:174
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:111:27)
+Emitted 'error' event at:
+    at Connection._handleProtocolError (/home/codeflar/nodevenv/codeflare-api/10/lib/node_modules/mysql/lib/Connection.js:423:8)
+    at Protocol.emit (events.js:198:13)
+    at Protocol._delegateError (/home/codeflar/nodevenv/codeflare-api/10/lib/node_modules/mysql/lib/protocol/Protocol.js:398:10)
+    at Protocol.handleNetworkError (/home/codeflar/nodevenv/codeflare-api/10/lib/node_modules/mysql/lib/protocol/Protocol.js:371:10)
+    at Connection._handleNetworkError (/home/codeflar/nodevenv/codeflare-api/10/lib/node_modules/mysql/lib/Connection.js:418:18)
+    at Socket.emit (events.js:198:13)
+    at emitErrorNT (internal/streams/destroy.js:91:8)
+    at emitErrorAndCloseNT (internal/streams/destroy.js:59:3)
+    at process._tickCallback (internal/process/next_tick.js:63:19)
+events.js:174
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:111:27)
+Emitted 'error' event at:
+    at Connection._handleProtocolError (/home/codeflar/nodevenv/codeflare-api/10/lib/node_modules/mysql/lib/Connection.js:423:8)
+    at Protocol.emit (events.js:198:13)
+    at Protocol._delegateError (/home/codeflar/nodevenv/codeflare-api/10/lib/node_modules/mysql/lib/protocol/Protocol.js:398:10)
+    at Protocol.handleNetworkError (/home/codeflar/nodevenv/codeflare-api/10/lib/node_modules/mysql/lib/protocol/Protocol.js:371:10)
+    at Connection._handleNetworkError (/home/codeflar/nodevenv/codeflare-api/10/lib/node_modules/mysql/lib/Connection.js:418:18)
+    at Socket.emit (events.js:198:13)
+    at emitErrorNT (internal/streams/destroy.js:91:8)
+    at emitErrorAndCloseNT (internal/streams/destroy.js:59:3)
+    at process._tickCallback (internal/process/next_tick.js:63:19)
+events.js:174
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:111:27)
+Emitted 'error' event at:
+    at Connection._handleProtocolError (/home/codeflar/nodevenv/codeflare-api/10/lib/node_modules/mysql/lib/Connection.js:423:8)
+    at Protocol.emit (events.js:198:13)
+    at Protocol._delegateError (/home/codeflar/nodevenv/codeflare-api/10/lib/node_modules/mysql/lib/protocol/Protocol.js:398:10)
+    at Protocol.handleNetworkError (/home/codeflar/nodevenv/codeflare-api/10/lib/node_modules/mysql/lib/protocol/Protocol.js:371:10)
+    at Connection._handleNetworkError (/home/codeflar/nodevenv/codeflare-api/10/lib/node_modules/mysql/lib/Connection.js:418:18)
+    at Socket.emit (events.js:198:13)
+    at emitErrorNT (internal/streams/destroy.js:91:8)
+    at emitErrorAndCloseNT (internal/streams/destroy.js:59:3)
+    at process._tickCallback (internal/process/next_tick.js:63:19)
+events.js:174
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:111:27)
+Emitted 'error' event at:
+    at Connection._handleProtocolError (/home/codeflar/nodevenv/codeflare-api/10/lib/node_modules/mysql/lib/Connection.js:423:8)
+    at Protocol.emit (events.js:198:13)
+    at Protocol._delegateError (/home/codeflar/nodevenv/codeflare-api/10/lib/node_modules/mysql/lib/protocol/Protocol.js:398:10)
+    at Protocol.handleNetworkError (/home/codeflar/nodevenv/codeflare-api/10/lib/node_modules/mysql/lib/protocol/Protocol.js:371:10)
+    at Connection._handleNetworkError (/home/codeflar/nodevenv/codeflare-api/10/lib/node_modules/mysql/lib/Connection.js:418:18)
+    at Socket.emit (events.js:198:13)
+    at emitErrorNT (internal/streams/destroy.js:91:8)
+    at emitErrorAndCloseNT (internal/streams/destroy.js:59:3)
+    at process._tickCallback (internal/process/next_tick.js:63:19)
+events.js:174
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:111:27)
+Emitted 'error' event at:
+    at Connection._handleProtocolError (/home/codeflar/nodevenv/codeflare-api/10/lib/node_modules/mysql/lib/Connection.js:423:8)
+    at Protocol.emit (events.js:198:13)
+    at Protocol._delegateError (/home/codeflar/nodevenv/codeflare-api/10/lib/node_modules/mysql/lib/protocol/Protocol.js:398:10)
+    at Protocol.handleNetworkError (/home/codeflar/nodevenv/codeflare-api/10/lib/node_modules/mysql/lib/protocol/Protocol.js:371:10)
+    at Connection._handleNetworkError (/home/codeflar/nodevenv/codeflare-api/10/lib/node_modules/mysql/lib/Connection.js:418:18)
+    at Socket.emit (events.js:198:13)
+    at emitErrorNT (internal/streams/destroy.js:91:8)
+    at emitErrorAndCloseNT (internal/streams/destroy.js:59:3)
+    at process._tickCallback (internal/process/next_tick.js:63:19)
+events.js:174
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: Packets out of order. Got: 1 Expected: 3
+    at Parser._tryReadPacketHeader (/home/codeflar/nodevenv/codeflare-api/10/lib/node_modules/mysql/lib/protocol/Parser.js:470:15)
+    at Parser.write (/home/codeflar/nodevenv/codeflare-api/10/lib/node_modules/mysql/lib/protocol/Parser.js:33:29)
+    at Protocol.write (/home/codeflar/nodevenv/codeflare-api/10/lib/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/home/codeflar/nodevenv/codeflare-api/10/lib/node_modules/mysql/lib/Connection.js:88:28)
+    at Socket.<anonymous> (/home/codeflar/nodevenv/codeflare-api/10/lib/node_modules/mysql/lib/Connection.js:526:10)
+    at Socket.emit (events.js:198:13)
+    at addChunk (_stream_readable.js:288:12)
+    at readableAddChunk (_stream_readable.js:269:11)
+    at Socket.Readable.push (_stream_readable.js:224:10)
+    at TCP.onStreamRead [as onread] (internal/stream_base_commons.js:94:17)
+Emitted 'error' event at:
+    at Connection._handleProtocolError (/home/codeflar/nodevenv/codeflare-api/10/lib/node_modules/mysql/lib/Connection.js:423:8)
+    at Protocol.emit (events.js:198:13)
+    at Protocol._delegateError (/home/codeflar/nodevenv/codeflare-api/10/lib/node_modules/mysql/lib/protocol/Protocol.js:398:10)
+    at Protocol.handleParserError (/home/codeflar/nodevenv/codeflare-api/10/lib/node_modules/mysql/lib/protocol/Protocol.js:380:10)
+    at Parser._tryReadPacketHeader (/home/codeflar/nodevenv/codeflare-api/10/lib/node_modules/mysql/lib/protocol/Parser.js:478:10)
+    at Parser.write (/home/codeflar/nodevenv/codeflare-api/10/lib/node_modules/mysql/lib/protocol/Parser.js:33:29)
+    [... lines matching original stack trace ...]
+    at Socket.emit (events.js:198:13)
+events.js:174
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:111:27)
+Emitted 'error' event at:
+    at Connection._handleProtocolError (/home/codeflar/nodevenv/codeflare-api/10/lib/node_modules/mysql/lib/Connection.js:423:8)
+    at Protocol.emit (events.js:198:13)
+    at Protocol._delegateError (/home/codeflar/nodevenv/codeflare-api/10/lib/node_modules/mysql/lib/protocol/Protocol.js:398:10)
+    at Protocol.handleNetworkError (/home/codeflar/nodevenv/codeflare-api/10/lib/node_modules/mysql/lib/protocol/Protocol.js:371:10)
+    at Connection._handleNetworkError (/home/codeflar/nodevenv/codeflare-api/10/lib/node_modules/mysql/lib/Connection.js:418:18)
+    at Socket.emit (events.js:198:13)
+    at emitErrorNT (internal/streams/destroy.js:91:8)
+    at emitErrorAndCloseNT (internal/streams/destroy.js:59:3)
+    at process._tickCallback (internal/process/next_tick.js:63:19)
+events.js:174
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:111:27)
+Emitted 'error' event at:
+    at Connection._handleProtocolError (/home/codeflar/nodevenv/codeflare-api/10/lib/node_modules/mysql/lib/Connection.js:423:8)
+    at Protocol.emit (events.js:198:13)
+    at Protocol._delegateError (/home/codeflar/nodevenv/codeflare-api/10/lib/node_modules/mysql/lib/protocol/Protocol.js:398:10)
+    at Protocol.handleNetworkError (/home/codeflar/nodevenv/codeflare-api/10/lib/node_modules/mysql/lib/protocol/Protocol.js:371:10)
+    at Connection._handleNetworkError (/home/codeflar/nodevenv/codeflare-api/10/lib/node_modules/mysql/lib/Connection.js:418:18)
+    at Socket.emit (events.js:198:13)
+    at emitErrorNT (internal/streams/destroy.js:91:8)
+    at emitErrorAndCloseNT (internal/streams/destroy.js:59:3)
+    at process._tickCallback (internal/process/next_tick.js:63:19)
+events.js:174
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:111:27)
+Emitted 'error' event at:
+    at Connection._handleProtocolError (/home/codeflar/nodevenv/codeflare-api/10/lib/node_modules/mysql/lib/Connection.js:423:8)
+    at Protocol.emit (events.js:198:13)
+    at Protocol._delegateError (/home/codeflar/nodevenv/codeflare-api/10/lib/node_modules/mysql/lib/protocol/Protocol.js:398:10)
+    at Protocol.handleNetworkError (/home/codeflar/nodevenv/codeflare-api/10/lib/node_modules/mysql/lib/protocol/Protocol.js:371:10)
+    at Connection._handleNetworkError (/home/codeflar/nodevenv/codeflare-api/10/lib/node_modules/mysql/lib/Connection.js:418:18)
+    at Socket.emit (events.js:198:13)
+    at emitErrorNT (internal/streams/destroy.js:91:8)
+    at emitErrorAndCloseNT (internal/streams/destroy.js:59:3)
+    at process._tickCallback (internal/process/next_tick.js:63:19)
+events.js:174
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:111:27)
+Emitted 'error' event at:
+    at Connection._handleProtocolError (/home/codeflar/nodevenv/codeflare-api/10/lib/node_modules/mysql/lib/Connection.js:423:8)
+    at Protocol.emit (events.js:198:13)
+    at Protocol._delegateError (/home/codeflar/nodevenv/codeflare-api/10/lib/node_modules/mysql/lib/protocol/Protocol.js:398:10)
+    at Protocol.handleNetworkError (/home/codeflar/nodevenv/codeflare-api/10/lib/node_modules/mysql/lib/protocol/Protocol.js:371:10)
+    at Connection._handleNetworkError (/home/codeflar/nodevenv/codeflare-api/10/lib/node_modules/mysql/lib/Connection.js:418:18)
+    at Socket.emit (events.js:198:13)
+    at emitErrorNT (internal/streams/destroy.js:91:8)
+    at emitErrorAndCloseNT (internal/streams/destroy.js:59:3)
+    at process._tickCallback (internal/process/next_tick.js:63:19)
+events.js:174
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:111:27)
+Emitted 'error' event at:
+    at Connection._handleProtocolError (/home/codeflar/nodevenv/codeflare-api/10/lib/node_modules/mysql/lib/Connection.js:423:8)
+    at Protocol.emit (events.js:198:13)
+    at Protocol._delegateError (/home/codeflar/nodevenv/codeflare-api/10/lib/node_modules/mysql/lib/protocol/Protocol.js:398:10)
+    at Protocol.handleNetworkError (/home/codeflar/nodevenv/codeflare-api/10/lib/node_modules/mysql/lib/protocol/Protocol.js:371:10)
+    at Connection._handleNetworkError (/home/codeflar/nodevenv/codeflare-api/10/lib/node_modules/mysql/lib/Connection.js:418:18)
+    at Socket.emit (events.js:198:13)
+    at emitErrorNT (internal/streams/destroy.js:91:8)
+    at emitErrorAndCloseNT (internal/streams/destroy.js:59:3)
+    at process._tickCallback (internal/process/next_tick.js:63:19)
+events.js:174
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: Packets out of order. Got: 1 Expected: 3
+    at Parser._tryReadPacketHeader (/home/codeflar/nodevenv/codeflare-api/10/lib/node_modules/mysql/lib/protocol/Parser.js:470:15)
+    at Parser.write (/home/codeflar/nodevenv/codeflare-api/10/lib/node_modules/mysql/lib/protocol/Parser.js:33:29)
+    at Protocol.write (/home/codeflar/nodevenv/codeflare-api/10/lib/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/home/codeflar/nodevenv/codeflare-api/10/lib/node_modules/mysql/lib/Connection.js:88:28)
+    at Socket.<anonymous> (/home/codeflar/nodevenv/codeflare-api/10/lib/node_modules/mysql/lib/Connection.js:526:10)
+    at Socket.emit (events.js:198:13)
+    at addChunk (_stream_readable.js:288:12)
+    at readableAddChunk (_stream_readable.js:269:11)
+    at Socket.Readable.push (_stream_readable.js:224:10)
+    at TCP.onStreamRead [as onread] (internal/stream_base_commons.js:94:17)
+Emitted 'error' event at:
+    at Connection._handleProtocolError (/home/codeflar/nodevenv/codeflare-api/10/lib/node_modules/mysql/lib/Connection.js:423:8)
+    at Protocol.emit (events.js:198:13)
+    at Protocol._delegateError (/home/codeflar/nodevenv/codeflare-api/10/lib/node_modules/mysql/lib/protocol/Protocol.js:398:10)
+    at Protocol.handleParserError (/home/codeflar/nodevenv/codeflare-api/10/lib/node_modules/mysql/lib/protocol/Protocol.js:380:10)
+    at Parser._tryReadPacketHeader (/home/codeflar/nodevenv/codeflare-api/10/lib/node_modules/mysql/lib/protocol/Parser.js:478:10)
+    at Parser.write (/home/codeflar/nodevenv/codeflare-api/10/lib/node_modules/mysql/lib/protocol/Parser.js:33:29)
+    [... lines matching original stack trace ...]
+    at Socket.emit (events.js:198:13)
+/home/codeflar/nodevenv/codeflare-api/10/lib/node_modules/mysql/lib/protocol/Parser.js:437
+      throw err; // Rethrow non-MySQL errors
+      ^
+
+TypeError: Cannot read property 'password' of undefined
+    at Query.db.query (/home/codeflar/codeflare-api/server.js:101:10)
+    at Query.<anonymous> (/home/codeflar/nodevenv/codeflare-api/10/lib/node_modules/mysql/lib/Connection.js:526:10)
+    at Query._callback (/home/codeflar/nodevenv/codeflare-api/10/lib/node_modules/mysql/lib/Connection.js:488:16)
+    at Query.Sequence.end (/home/codeflar/nodevenv/codeflare-api/10/lib/node_modules/mysql/lib/protocol/sequences/Sequence.js:83:24)
+    at Query._handleFinalResultPacket (/home/codeflar/nodevenv/codeflare-api/10/lib/node_modules/mysql/lib/protocol/sequences/Query.js:149:8)
+    at Query.EofPacket (/home/codeflar/nodevenv/codeflare-api/10/lib/node_modules/mysql/lib/protocol/sequences/Query.js:133:8)
+    at Protocol._parsePacket (/home/codeflar/nodevenv/codeflare-api/10/lib/node_modules/mysql/lib/protocol/Protocol.js:291:23)
+    at Parser._parsePacket (/home/codeflar/nodevenv/codeflare-api/10/lib/node_modules/mysql/lib/protocol/Parser.js:433:10)
+    at Parser.write (/home/codeflar/nodevenv/codeflare-api/10/lib/node_modules/mysql/lib/protocol/Parser.js:43:10)
+    at Protocol.write (/home/codeflar/nodevenv/codeflare-api/10/lib/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+/home/codeflar/nodevenv/codeflare-api/10/lib/node_modules/mysql/lib/protocol/Parser.js:437
+      throw err; // Rethrow non-MySQL errors
+      ^
+
+TypeError: Cannot read property 'password' of undefined
+    at Query.db.query (/home/codeflar/codeflare-api/server.js:101:10)
+    at Query.<anonymous> (/home/codeflar/nodevenv/codeflare-api/10/lib/node_modules/mysql/lib/Connection.js:526:10)
+    at Query._callback (/home/codeflar/nodevenv/codeflare-api/10/lib/node_modules/mysql/lib/Connection.js:488:16)
+    at Query.Sequence.end (/home/codeflar/nodevenv/codeflare-api/10/lib/node_modules/mysql/lib/protocol/sequences/Sequence.js:83:24)
+    at Query._handleFinalResultPacket (/home/codeflar/nodevenv/codeflare-api/10/lib/node_modules/mysql/lib/protocol/sequences/Query.js:149:8)
+    at Query.EofPacket (/home/codeflar/nodevenv/codeflare-api/10/lib/node_modules/mysql/lib/protocol/sequences/Query.js:133:8)
+    at Protocol._parsePacket (/home/codeflar/nodevenv/codeflare-api/10/lib/node_modules/mysql/lib/protocol/Protocol.js:291:23)
+    at Parser._parsePacket (/home/codeflar/nodevenv/codeflare-api/10/lib/node_modules/mysql/lib/protocol/Parser.js:433:10)
+    at Parser.write (/home/codeflar/nodevenv/codeflare-api/10/lib/node_modules/mysql/lib/protocol/Parser.js:43:10)
+    at Protocol.write (/home/codeflar/nodevenv/codeflare-api/10/lib/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+events.js:174
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:111:27)
+Emitted 'error' event at:
+    at Connection._handleProtocolError (/home/codeflar/nodevenv/codeflare-api/10/lib/node_modules/mysql/lib/Connection.js:423:8)
+    at Protocol.emit (events.js:198:13)
+    at Protocol._delegateError (/home/codeflar/nodevenv/codeflare-api/10/lib/node_modules/mysql/lib/protocol/Protocol.js:398:10)
+    at Protocol.handleNetworkError (/home/codeflar/nodevenv/codeflare-api/10/lib/node_modules/mysql/lib/protocol/Protocol.js:371:10)
+    at Connection._handleNetworkError (/home/codeflar/nodevenv/codeflare-api/10/lib/node_modules/mysql/lib/Connection.js:418:18)
+    at Socket.emit (events.js:198:13)
+    at emitErrorNT (internal/streams/destroy.js:91:8)
+    at emitErrorAndCloseNT (internal/streams/destroy.js:59:3)
+    at process._tickCallback (internal/process/next_tick.js:63:19)
+/home/robialih/appAcademy/node_modules/mysql/lib/protocol/Parser.js:437
+      throw err; // Rethrow non-MySQL errors
+      ^
+
+Error: ER_ACCESS_DENIED_ERROR: Access denied for user 'codeflar_codeflare-api'@'localhost' (using password: YES)
+    at Handshake.Sequence._packetToError (/home/robialih/appAcademy/node_modules/mysql/lib/protocol/sequences/Sequence.js:47:14)
+    at Handshake.ErrorPacket (/home/robialih/appAcademy/node_modules/mysql/lib/protocol/sequences/Handshake.js:123:18)
+    at Protocol._parsePacket (/home/robialih/appAcademy/node_modules/mysql/lib/protocol/Protocol.js:291:23)
+    at Parser._parsePacket (/home/robialih/appAcademy/node_modules/mysql/lib/protocol/Parser.js:433:10)
+    at Parser.write (/home/robialih/appAcademy/node_modules/mysql/lib/protocol/Parser.js:43:10)
+    at Protocol.write (/home/robialih/appAcademy/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/home/robialih/appAcademy/node_modules/mysql/lib/Connection.js:88:28)
+    at Socket.<anonymous> (/home/robialih/appAcademy/node_modules/mysql/lib/Connection.js:526:10)
+    at Socket.emit (events.js:198:13)
+    at addChunk (_stream_readable.js:288:12)
+    --------------------
+    at Protocol._enqueue (/home/robialih/appAcademy/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at Protocol.handshake (/home/robialih/appAcademy/node_modules/mysql/lib/protocol/Protocol.js:51:23)
+    at Connection.connect (/home/robialih/appAcademy/node_modules/mysql/lib/Connection.js:116:18)
+    at Object.<anonymous> (/home/robialih/appAcademy/database/dbConnection.js:9:6)
+    at Module._compile (internal/modules/cjs/loader.js:778:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:789:10)
+    at Module.load (internal/modules/cjs/loader.js:653:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:593:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:585:3)
+    at Module.require (internal/modules/cjs/loader.js:692:17)
+/home/robialih/nodevenv/appAcademy/10/lib/node_modules/mysql/lib/protocol/Parser.js:437
+      throw err; // Rethrow non-MySQL errors
+      ^
+
+Error: ER_ACCESS_DENIED_ERROR: Access denied for user 'codeflar_codeflare-api'@'localhost' (using password: YES)
+    at Handshake.Sequence._packetToError (/home/robialih/nodevenv/appAcademy/10/lib/node_modules/mysql/lib/protocol/sequences/Sequence.js:47:14)
+    at Handshake.ErrorPacket (/home/robialih/nodevenv/appAcademy/10/lib/node_modules/mysql/lib/protocol/sequences/Handshake.js:123:18)
+    at Protocol._parsePacket (/home/robialih/nodevenv/appAcademy/10/lib/node_modules/mysql/lib/protocol/Protocol.js:291:23)
+    at Parser._parsePacket (/home/robialih/nodevenv/appAcademy/10/lib/node_modules/mysql/lib/protocol/Parser.js:433:10)
+    at Parser.write (/home/robialih/nodevenv/appAcademy/10/lib/node_modules/mysql/lib/protocol/Parser.js:43:10)
+    at Protocol.write (/home/robialih/nodevenv/appAcademy/10/lib/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/home/robialih/nodevenv/appAcademy/10/lib/node_modules/mysql/lib/Connection.js:88:28)
+    at Socket.<anonymous> (/home/robialih/nodevenv/appAcademy/10/lib/node_modules/mysql/lib/Connection.js:526:10)
+    at Socket.emit (events.js:198:13)
+    at addChunk (_stream_readable.js:288:12)
+    --------------------
+    at Protocol._enqueue (/home/robialih/nodevenv/appAcademy/10/lib/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at Protocol.handshake (/home/robialih/nodevenv/appAcademy/10/lib/node_modules/mysql/lib/protocol/Protocol.js:51:23)
+    at Connection.connect (/home/robialih/nodevenv/appAcademy/10/lib/node_modules/mysql/lib/Connection.js:116:18)
+    at Object.<anonymous> (/home/robialih/appAcademy/database/dbConnection.js:9:6)
+    at Module._compile (internal/modules/cjs/loader.js:778:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:789:10)
+    at Module.load (internal/modules/cjs/loader.js:653:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:593:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:585:3)
+    at Module.require (internal/modules/cjs/loader.js:692:17)
+/home/robialih/nodevenv/appAcademy/10/lib/node_modules/mysql/lib/protocol/Parser.js:437
+      throw err; // Rethrow non-MySQL errors
+      ^
+
+Error: ER_ACCESS_DENIED_ERROR: Access denied for user 'codeflar_codeflare-api'@'localhost' (using password: YES)
+    at Handshake.Sequence._packetToError (/home/robialih/nodevenv/appAcademy/10/lib/node_modules/mysql/lib/protocol/sequences/Sequence.js:47:14)
+    at Handshake.ErrorPacket (/home/robialih/nodevenv/appAcademy/10/lib/node_modules/mysql/lib/protocol/sequences/Handshake.js:123:18)
+    at Protocol._parsePacket (/home/robialih/nodevenv/appAcademy/10/lib/node_modules/mysql/lib/protocol/Protocol.js:291:23)
+    at Parser._parsePacket (/home/robialih/nodevenv/appAcademy/10/lib/node_modules/mysql/lib/protocol/Parser.js:433:10)
+    at Parser.write (/home/robialih/nodevenv/appAcademy/10/lib/node_modules/mysql/lib/protocol/Parser.js:43:10)
+    at Protocol.write (/home/robialih/nodevenv/appAcademy/10/lib/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/home/robialih/nodevenv/appAcademy/10/lib/node_modules/mysql/lib/Connection.js:88:28)
+    at Socket.<anonymous> (/home/robialih/nodevenv/appAcademy/10/lib/node_modules/mysql/lib/Connection.js:526:10)
+    at Socket.emit (events.js:198:13)
+    at addChunk (_stream_readable.js:288:12)
+    --------------------
+    at Protocol._enqueue (/home/robialih/nodevenv/appAcademy/10/lib/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at Protocol.handshake (/home/robialih/nodevenv/appAcademy/10/lib/node_modules/mysql/lib/protocol/Protocol.js:51:23)
+    at Connection.connect (/home/robialih/nodevenv/appAcademy/10/lib/node_modules/mysql/lib/Connection.js:116:18)
+    at Object.<anonymous> (/home/robialih/appAcademy/database/dbConnection.js:9:6)
+    at Module._compile (internal/modules/cjs/loader.js:778:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:789:10)
+    at Module.load (internal/modules/cjs/loader.js:653:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:593:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:585:3)
+    at Module.require (internal/modules/cjs/loader.js:692:17)
+/home/robialih/nodevenv/appAcademy/10/lib/node_modules/mysql/lib/protocol/Parser.js:437
+      throw err; // Rethrow non-MySQL errors
+      ^
+
+Error: ER_ACCESS_DENIED_ERROR: Access denied for user 'codeflar_codeflare-api'@'localhost' (using password: YES)
+    at Handshake.Sequence._packetToError (/home/robialih/nodevenv/appAcademy/10/lib/node_modules/mysql/lib/protocol/sequences/Sequence.js:47:14)
+    at Handshake.ErrorPacket (/home/robialih/nodevenv/appAcademy/10/lib/node_modules/mysql/lib/protocol/sequences/Handshake.js:123:18)
+    at Protocol._parsePacket (/home/robialih/nodevenv/appAcademy/10/lib/node_modules/mysql/lib/protocol/Protocol.js:291:23)
+    at Parser._parsePacket (/home/robialih/nodevenv/appAcademy/10/lib/node_modules/mysql/lib/protocol/Parser.js:433:10)
+    at Parser.write (/home/robialih/nodevenv/appAcademy/10/lib/node_modules/mysql/lib/protocol/Parser.js:43:10)
+    at Protocol.write (/home/robialih/nodevenv/appAcademy/10/lib/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/home/robialih/nodevenv/appAcademy/10/lib/node_modules/mysql/lib/Connection.js:88:28)
+    at Socket.<anonymous> (/home/robialih/nodevenv/appAcademy/10/lib/node_modules/mysql/lib/Connection.js:526:10)
+    at Socket.emit (events.js:198:13)
+    at addChunk (_stream_readable.js:288:12)
+    --------------------
+    at Protocol._enqueue (/home/robialih/nodevenv/appAcademy/10/lib/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at Protocol.handshake (/home/robialih/nodevenv/appAcademy/10/lib/node_modules/mysql/lib/protocol/Protocol.js:51:23)
+    at Connection.connect (/home/robialih/nodevenv/appAcademy/10/lib/node_modules/mysql/lib/Connection.js:116:18)
+    at Object.<anonymous> (/home/robialih/appAcademy/database/dbConnection.js:9:6)
+    at Module._compile (internal/modules/cjs/loader.js:778:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:789:10)
+    at Module.load (internal/modules/cjs/loader.js:653:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:593:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:585:3)
+    at Module.require (internal/modules/cjs/loader.js:692:17)
+/home/robialih/nodevenv/appAcademy/10/lib/node_modules/mysql/lib/protocol/Parser.js:437
+      throw err; // Rethrow non-MySQL errors
+      ^
+
+Error: ER_ACCESS_DENIED_ERROR: Access denied for user 'codeflar_codeflare-api'@'localhost' (using password: YES)
+    at Handshake.Sequence._packetToError (/home/robialih/nodevenv/appAcademy/10/lib/node_modules/mysql/lib/protocol/sequences/Sequence.js:47:14)
+    at Handshake.ErrorPacket (/home/robialih/nodevenv/appAcademy/10/lib/node_modules/mysql/lib/protocol/sequences/Handshake.js:123:18)
+    at Protocol._parsePacket (/home/robialih/nodevenv/appAcademy/10/lib/node_modules/mysql/lib/protocol/Protocol.js:291:23)
+    at Parser._parsePacket (/home/robialih/nodevenv/appAcademy/10/lib/node_modules/mysql/lib/protocol/Parser.js:433:10)
+    at Parser.write (/home/robialih/nodevenv/appAcademy/10/lib/node_modules/mysql/lib/protocol/Parser.js:43:10)
+    at Protocol.write (/home/robialih/nodevenv/appAcademy/10/lib/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/home/robialih/nodevenv/appAcademy/10/lib/node_modules/mysql/lib/Connection.js:88:28)
+    at Socket.<anonymous> (/home/robialih/nodevenv/appAcademy/10/lib/node_modules/mysql/lib/Connection.js:526:10)
+    at Socket.emit (events.js:198:13)
+    at addChunk (_stream_readable.js:288:12)
+    --------------------
+    at Protocol._enqueue (/home/robialih/nodevenv/appAcademy/10/lib/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at Protocol.handshake (/home/robialih/nodevenv/appAcademy/10/lib/node_modules/mysql/lib/protocol/Protocol.js:51:23)
+    at Connection.connect (/home/robialih/nodevenv/appAcademy/10/lib/node_modules/mysql/lib/Connection.js:116:18)
+    at Object.<anonymous> (/home/robialih/appAcademy/database/dbConnection.js:9:6)
+    at Module._compile (internal/modules/cjs/loader.js:778:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:789:10)
+    at Module.load (internal/modules/cjs/loader.js:653:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:593:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:585:3)
+    at Module.require (internal/modules/cjs/loader.js:692:17)
+/home/robialih/nodevenv/appAcademy/10/lib/node_modules/mysql/lib/protocol/Parser.js:437
+      throw err; // Rethrow non-MySQL errors
+      ^
+
+Error: ER_BAD_FIELD_ERROR: Unknown column 'name' in 'field list'
+    at Query.Sequence._packetToError (/home/robialih/nodevenv/appAcademy/10/lib/node_modules/mysql/lib/protocol/sequences/Sequence.js:47:14)
+    at Query.ErrorPacket (/home/robialih/nodevenv/appAcademy/10/lib/node_modules/mysql/lib/protocol/sequences/Query.js:79:18)
+    at Protocol._parsePacket (/home/robialih/nodevenv/appAcademy/10/lib/node_modules/mysql/lib/protocol/Protocol.js:291:23)
+    at Parser._parsePacket (/home/robialih/nodevenv/appAcademy/10/lib/node_modules/mysql/lib/protocol/Parser.js:433:10)
+    at Parser.write (/home/robialih/nodevenv/appAcademy/10/lib/node_modules/mysql/lib/protocol/Parser.js:43:10)
+    at Protocol.write (/home/robialih/nodevenv/appAcademy/10/lib/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/home/robialih/nodevenv/appAcademy/10/lib/node_modules/mysql/lib/Connection.js:88:28)
+    at Socket.<anonymous> (/home/robialih/nodevenv/appAcademy/10/lib/node_modules/mysql/lib/Connection.js:526:10)
+    at Socket.emit (events.js:198:13)
+    at addChunk (_stream_readable.js:288:12)
+    --------------------
+    at Protocol._enqueue (/home/robialih/nodevenv/appAcademy/10/lib/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at Connection.query (/home/robialih/nodevenv/appAcademy/10/lib/node_modules/mysql/lib/Connection.js:198:25)
+    at bcrypt.hash (/home/robialih/appAcademy/server.js:55:4)
+    at /home/robialih/nodevenv/appAcademy/10/lib/node_modules/bcryptjs/dist/bcrypt.js:1353:21
+    at Immediate.next (/home/robialih/nodevenv/appAcademy/10/lib/node_modules/bcryptjs/dist/bcrypt.js:1233:21)
+    at runCallback (timers.js:705:18)
+    at tryOnImmediate (timers.js:676:5)
+    at processImmediate (timers.js:658:5)
+/home/robialih/nodevenv/appAcademy/10/lib/node_modules/mysql/lib/protocol/Parser.js:437
+      throw err; // Rethrow non-MySQL errors
+      ^
+
+Error: ER_BAD_FIELD_ERROR: Unknown column 'name' in 'field list'
+    at Query.Sequence._packetToError (/home/robialih/nodevenv/appAcademy/10/lib/node_modules/mysql/lib/protocol/sequences/Sequence.js:47:14)
+    at Query.ErrorPacket (/home/robialih/nodevenv/appAcademy/10/lib/node_modules/mysql/lib/protocol/sequences/Query.js:79:18)
+    at Protocol._parsePacket (/home/robialih/nodevenv/appAcademy/10/lib/node_modules/mysql/lib/protocol/Protocol.js:291:23)
+    at Parser._parsePacket (/home/robialih/nodevenv/appAcademy/10/lib/node_modules/mysql/lib/protocol/Parser.js:433:10)
+    at Parser.write (/home/robialih/nodevenv/appAcademy/10/lib/node_modules/mysql/lib/protocol/Parser.js:43:10)
+    at Protocol.write (/home/robialih/nodevenv/appAcademy/10/lib/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/home/robialih/nodevenv/appAcademy/10/lib/node_modules/mysql/lib/Connection.js:88:28)
+    at Socket.<anonymous> (/home/robialih/nodevenv/appAcademy/10/lib/node_modules/mysql/lib/Connection.js:526:10)
+    at Socket.emit (events.js:198:13)
+    at addChunk (_stream_readable.js:288:12)
+    --------------------
+    at Protocol._enqueue (/home/robialih/nodevenv/appAcademy/10/lib/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at Connection.query (/home/robialih/nodevenv/appAcademy/10/lib/node_modules/mysql/lib/Connection.js:198:25)
+    at bcrypt.hash (/home/robialih/appAcademy/server.js:55:4)
+    at /home/robialih/nodevenv/appAcademy/10/lib/node_modules/bcryptjs/dist/bcrypt.js:1353:21
+    at Immediate.next (/home/robialih/nodevenv/appAcademy/10/lib/node_modules/bcryptjs/dist/bcrypt.js:1233:21)
+    at runCallback (timers.js:705:18)
+    at tryOnImmediate (timers.js:676:5)
+    at processImmediate (timers.js:658:5)
+/home/robialih/nodevenv/appAcademy/10/lib/node_modules/mysql/lib/protocol/Parser.js:437
+      throw err; // Rethrow non-MySQL errors
+      ^
+
+Error: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '-academy (name, email, password) VALUES ('Lawson Luke', 'lawsonluke9@gmail.co...' at line 1
+    at Query.Sequence._packetToError (/home/robialih/nodevenv/appAcademy/10/lib/node_modules/mysql/lib/protocol/sequences/Sequence.js:47:14)
+    at Query.ErrorPacket (/home/robialih/nodevenv/appAcademy/10/lib/node_modules/mysql/lib/protocol/sequences/Query.js:79:18)
+    at Protocol._parsePacket (/home/robialih/nodevenv/appAcademy/10/lib/node_modules/mysql/lib/protocol/Protocol.js:291:23)
+    at Parser._parsePacket (/home/robialih/nodevenv/appAcademy/10/lib/node_modules/mysql/lib/protocol/Parser.js:433:10)
+    at Parser.write (/home/robialih/nodevenv/appAcademy/10/lib/node_modules/mysql/lib/protocol/Parser.js:43:10)
+    at Protocol.write (/home/robialih/nodevenv/appAcademy/10/lib/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/home/robialih/nodevenv/appAcademy/10/lib/node_modules/mysql/lib/Connection.js:88:28)
+    at Socket.<anonymous> (/home/robialih/nodevenv/appAcademy/10/lib/node_modules/mysql/lib/Connection.js:526:10)
+    at Socket.emit (events.js:198:13)
+    at addChunk (_stream_readable.js:288:12)
+    --------------------
+    at Protocol._enqueue (/home/robialih/nodevenv/appAcademy/10/lib/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at Connection.query (/home/robialih/nodevenv/appAcademy/10/lib/node_modules/mysql/lib/Connection.js:198:25)
+    at bcrypt.hash (/home/robialih/appAcademy/server.js:55:4)
+    at /home/robialih/nodevenv/appAcademy/10/lib/node_modules/bcryptjs/dist/bcrypt.js:1353:21
+    at Immediate.next (/home/robialih/nodevenv/appAcademy/10/lib/node_modules/bcryptjs/dist/bcrypt.js:1233:21)
+    at runCallback (timers.js:705:18)
+    at tryOnImmediate (timers.js:676:5)
+    at processImmediate (timers.js:658:5)
+/home/robialih/nodevenv/appAcademy/10/lib/node_modules/mysql/lib/protocol/Parser.js:437
+      throw err; // Rethrow non-MySQL errors
+      ^
+
+Error: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '-academy (name, email, password) VALUES ('Lawson Luke', 'lawsonluke9@gmail.co...' at line 1
+    at Query.Sequence._packetToError (/home/robialih/nodevenv/appAcademy/10/lib/node_modules/mysql/lib/protocol/sequences/Sequence.js:47:14)
+    at Query.ErrorPacket (/home/robialih/nodevenv/appAcademy/10/lib/node_modules/mysql/lib/protocol/sequences/Query.js:79:18)
+    at Protocol._parsePacket (/home/robialih/nodevenv/appAcademy/10/lib/node_modules/mysql/lib/protocol/Protocol.js:291:23)
+    at Parser._parsePacket (/home/robialih/nodevenv/appAcademy/10/lib/node_modules/mysql/lib/protocol/Parser.js:433:10)
+    at Parser.write (/home/robialih/nodevenv/appAcademy/10/lib/node_modules/mysql/lib/protocol/Parser.js:43:10)
+    at Protocol.write (/home/robialih/nodevenv/appAcademy/10/lib/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/home/robialih/nodevenv/appAcademy/10/lib/node_modules/mysql/lib/Connection.js:88:28)
+    at Socket.<anonymous> (/home/robialih/nodevenv/appAcademy/10/lib/node_modules/mysql/lib/Connection.js:526:10)
+    at Socket.emit (events.js:198:13)
+    at addChunk (_stream_readable.js:288:12)
+    --------------------
+    at Protocol._enqueue (/home/robialih/nodevenv/appAcademy/10/lib/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at Connection.query (/home/robialih/nodevenv/appAcademy/10/lib/node_modules/mysql/lib/Connection.js:198:25)
+    at bcrypt.hash (/home/robialih/appAcademy/server.js:55:4)
+    at /home/robialih/nodevenv/appAcademy/10/lib/node_modules/bcryptjs/dist/bcrypt.js:1353:21
+    at Immediate.next (/home/robialih/nodevenv/appAcademy/10/lib/node_modules/bcryptjs/dist/bcrypt.js:1233:21)
+    at runCallback (timers.js:705:18)
+    at tryOnImmediate (timers.js:676:5)
+    at processImmediate (timers.js:658:5)
+/home/robialih/nodevenv/appAcademy/10/lib/node_modules/mysql/lib/protocol/Parser.js:437
+      throw err; // Rethrow non-MySQL errors
+      ^
+
+Error: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '-academy (name, email, password) VALUES ('Lawson Luke', 'lawsonluke9@gmail.co...' at line 1
+    at Query.Sequence._packetToError (/home/robialih/nodevenv/appAcademy/10/lib/node_modules/mysql/lib/protocol/sequences/Sequence.js:47:14)
+    at Query.ErrorPacket (/home/robialih/nodevenv/appAcademy/10/lib/node_modules/mysql/lib/protocol/sequences/Query.js:79:18)
+    at Protocol._parsePacket (/home/robialih/nodevenv/appAcademy/10/lib/node_modules/mysql/lib/protocol/Protocol.js:291:23)
+    at Parser._parsePacket (/home/robialih/nodevenv/appAcademy/10/lib/node_modules/mysql/lib/protocol/Parser.js:433:10)
+    at Parser.write (/home/robialih/nodevenv/appAcademy/10/lib/node_modules/mysql/lib/protocol/Parser.js:43:10)
+    at Protocol.write (/home/robialih/nodevenv/appAcademy/10/lib/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/home/robialih/nodevenv/appAcademy/10/lib/node_modules/mysql/lib/Connection.js:88:28)
+    at Socket.<anonymous> (/home/robialih/nodevenv/appAcademy/10/lib/node_modules/mysql/lib/Connection.js:526:10)
+    at Socket.emit (events.js:198:13)
+    at addChunk (_stream_readable.js:288:12)
+    --------------------
+    at Protocol._enqueue (/home/robialih/nodevenv/appAcademy/10/lib/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at Connection.query (/home/robialih/nodevenv/appAcademy/10/lib/node_modules/mysql/lib/Connection.js:198:25)
+    at bcrypt.hash (/home/robialih/appAcademy/server.js:55:4)
+    at /home/robialih/nodevenv/appAcademy/10/lib/node_modules/bcryptjs/dist/bcrypt.js:1353:21
+    at Immediate.next (/home/robialih/nodevenv/appAcademy/10/lib/node_modules/bcryptjs/dist/bcrypt.js:1233:21)
+    at runCallback (timers.js:705:18)
+    at tryOnImmediate (timers.js:676:5)
+    at processImmediate (timers.js:658:5)
+/home/robialih/nodevenv/appAcademy/10/lib/node_modules/mysql/lib/protocol/Parser.js:437
+      throw err; // Rethrow non-MySQL errors
+      ^
+
+Error: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '-academy (name, email, password) VALUES ('Lawson Luke', 'lawsonluke9@gmail.co...' at line 1
+    at Query.Sequence._packetToError (/home/robialih/nodevenv/appAcademy/10/lib/node_modules/mysql/lib/protocol/sequences/Sequence.js:47:14)
+    at Query.ErrorPacket (/home/robialih/nodevenv/appAcademy/10/lib/node_modules/mysql/lib/protocol/sequences/Query.js:79:18)
+    at Protocol._parsePacket (/home/robialih/nodevenv/appAcademy/10/lib/node_modules/mysql/lib/protocol/Protocol.js:291:23)
+    at Parser._parsePacket (/home/robialih/nodevenv/appAcademy/10/lib/node_modules/mysql/lib/protocol/Parser.js:433:10)
+    at Parser.write (/home/robialih/nodevenv/appAcademy/10/lib/node_modules/mysql/lib/protocol/Parser.js:43:10)
+    at Protocol.write (/home/robialih/nodevenv/appAcademy/10/lib/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/home/robialih/nodevenv/appAcademy/10/lib/node_modules/mysql/lib/Connection.js:88:28)
+    at Socket.<anonymous> (/home/robialih/nodevenv/appAcademy/10/lib/node_modules/mysql/lib/Connection.js:526:10)
+    at Socket.emit (events.js:198:13)
+    at addChunk (_stream_readable.js:288:12)
+    --------------------
+    at Protocol._enqueue (/home/robialih/nodevenv/appAcademy/10/lib/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at Connection.query (/home/robialih/nodevenv/appAcademy/10/lib/node_modules/mysql/lib/Connection.js:198:25)
+    at bcrypt.hash (/home/robialih/appAcademy/server.js:55:4)
+    at /home/robialih/nodevenv/appAcademy/10/lib/node_modules/bcryptjs/dist/bcrypt.js:1353:21
+    at Immediate.next (/home/robialih/nodevenv/appAcademy/10/lib/node_modules/bcryptjs/dist/bcrypt.js:1233:21)
+    at runCallback (timers.js:705:18)
+    at tryOnImmediate (timers.js:676:5)
+    at processImmediate (timers.js:658:5)
+/home/robialih/nodevenv/appAcademy/10/lib/node_modules/mysql/lib/protocol/Parser.js:437
+      throw err; // Rethrow non-MySQL errors
+      ^
+
+TypeError: Cannot read property 'password' of undefined
+    at Query.db.query (/home/robialih/appAcademy/server.js:101:10)
+    at Query.<anonymous> (/home/robialih/nodevenv/appAcademy/10/lib/node_modules/mysql/lib/Connection.js:526:10)
+    at Query._callback (/home/robialih/nodevenv/appAcademy/10/lib/node_modules/mysql/lib/Connection.js:488:16)
+    at Query.Sequence.end (/home/robialih/nodevenv/appAcademy/10/lib/node_modules/mysql/lib/protocol/sequences/Sequence.js:83:24)
+    at Query._handleFinalResultPacket (/home/robialih/nodevenv/appAcademy/10/lib/node_modules/mysql/lib/protocol/sequences/Query.js:149:8)
+    at Query.EofPacket (/home/robialih/nodevenv/appAcademy/10/lib/node_modules/mysql/lib/protocol/sequences/Query.js:133:8)
+    at Protocol._parsePacket (/home/robialih/nodevenv/appAcademy/10/lib/node_modules/mysql/lib/protocol/Protocol.js:291:23)
+    at Parser._parsePacket (/home/robialih/nodevenv/appAcademy/10/lib/node_modules/mysql/lib/protocol/Parser.js:433:10)
+    at Parser.write (/home/robialih/nodevenv/appAcademy/10/lib/node_modules/mysql/lib/protocol/Parser.js:43:10)
+    at Protocol.write (/home/robialih/nodevenv/appAcademy/10/lib/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+/home/robialih/nodevenv/appAcademy/10/lib/node_modules/mysql/lib/protocol/Parser.js:437
+      throw err; // Rethrow non-MySQL errors
+      ^
+
+TypeError: Cannot read property 'password' of undefined
+    at Query.db.query (/home/robialih/appAcademy/server.js:101:10)
+    at Query.<anonymous> (/home/robialih/nodevenv/appAcademy/10/lib/node_modules/mysql/lib/Connection.js:526:10)
+    at Query._callback (/home/robialih/nodevenv/appAcademy/10/lib/node_modules/mysql/lib/Connection.js:488:16)
+    at Query.Sequence.end (/home/robialih/nodevenv/appAcademy/10/lib/node_modules/mysql/lib/protocol/sequences/Sequence.js:83:24)
+    at Query._handleFinalResultPacket (/home/robialih/nodevenv/appAcademy/10/lib/node_modules/mysql/lib/protocol/sequences/Query.js:149:8)
+    at Query.EofPacket (/home/robialih/nodevenv/appAcademy/10/lib/node_modules/mysql/lib/protocol/sequences/Query.js:133:8)
+    at Protocol._parsePacket (/home/robialih/nodevenv/appAcademy/10/lib/node_modules/mysql/lib/protocol/Protocol.js:291:23)
+    at Parser._parsePacket (/home/robialih/nodevenv/appAcademy/10/lib/node_modules/mysql/lib/protocol/Parser.js:433:10)
+    at Parser.write (/home/robialih/nodevenv/appAcademy/10/lib/node_modules/mysql/lib/protocol/Parser.js:43:10)
+    at Protocol.write (/home/robialih/nodevenv/appAcademy/10/lib/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+/home/robialih/nodevenv/appAcademy/10/lib/node_modules/mysql/lib/protocol/Parser.js:437
+      throw err; // Rethrow non-MySQL errors
+      ^
+
+TypeError: Cannot read property 'password' of undefined
+    at Query.db.query (/home/robialih/appAcademy/server.js:101:10)
+    at Query.<anonymous> (/home/robialih/nodevenv/appAcademy/10/lib/node_modules/mysql/lib/Connection.js:526:10)
+    at Query._callback (/home/robialih/nodevenv/appAcademy/10/lib/node_modules/mysql/lib/Connection.js:488:16)
+    at Query.Sequence.end (/home/robialih/nodevenv/appAcademy/10/lib/node_modules/mysql/lib/protocol/sequences/Sequence.js:83:24)
+    at Query._handleFinalResultPacket (/home/robialih/nodevenv/appAcademy/10/lib/node_modules/mysql/lib/protocol/sequences/Query.js:149:8)
+    at Query.EofPacket (/home/robialih/nodevenv/appAcademy/10/lib/node_modules/mysql/lib/protocol/sequences/Query.js:133:8)
+    at Protocol._parsePacket (/home/robialih/nodevenv/appAcademy/10/lib/node_modules/mysql/lib/protocol/Protocol.js:291:23)
+    at Parser._parsePacket (/home/robialih/nodevenv/appAcademy/10/lib/node_modules/mysql/lib/protocol/Parser.js:433:10)
+    at Parser.write (/home/robialih/nodevenv/appAcademy/10/lib/node_modules/mysql/lib/protocol/Parser.js:43:10)
+    at Protocol.write (/home/robialih/nodevenv/appAcademy/10/lib/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+/home/robialih/nodevenv/appAcademy/10/lib/node_modules/mysql/lib/protocol/Parser.js:437
+      throw err; // Rethrow non-MySQL errors
+      ^
+
+TypeError: Cannot read property 'password' of undefined
+    at Query.db.query (/home/robialih/appAcademy/server.js:101:10)
+    at Query.<anonymous> (/home/robialih/nodevenv/appAcademy/10/lib/node_modules/mysql/lib/Connection.js:526:10)
+    at Query._callback (/home/robialih/nodevenv/appAcademy/10/lib/node_modules/mysql/lib/Connection.js:488:16)
+    at Query.Sequence.end (/home/robialih/nodevenv/appAcademy/10/lib/node_modules/mysql/lib/protocol/sequences/Sequence.js:83:24)
+    at Query._handleFinalResultPacket (/home/robialih/nodevenv/appAcademy/10/lib/node_modules/mysql/lib/protocol/sequences/Query.js:149:8)
+    at Query.EofPacket (/home/robialih/nodevenv/appAcademy/10/lib/node_modules/mysql/lib/protocol/sequences/Query.js:133:8)
+    at Protocol._parsePacket (/home/robialih/nodevenv/appAcademy/10/lib/node_modules/mysql/lib/protocol/Protocol.js:291:23)
+    at Parser._parsePacket (/home/robialih/nodevenv/appAcademy/10/lib/node_modules/mysql/lib/protocol/Parser.js:433:10)
+    at Parser.write (/home/robialih/nodevenv/appAcademy/10/lib/node_modules/mysql/lib/protocol/Parser.js:43:10)
+    at Protocol.write (/home/robialih/nodevenv/appAcademy/10/lib/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+/home/robialih/nodevenv/appAcademy/10/lib/node_modules/mysql/lib/protocol/Parser.js:437
+      throw err; // Rethrow non-MySQL errors
+      ^
+
+TypeError: Cannot read property 'password' of undefined
+    at Query.db.query (/home/robialih/appAcademy/server.js:101:10)
+    at Query.<anonymous> (/home/robialih/nodevenv/appAcademy/10/lib/node_modules/mysql/lib/Connection.js:526:10)
+    at Query._callback (/home/robialih/nodevenv/appAcademy/10/lib/node_modules/mysql/lib/Connection.js:488:16)
+    at Query.Sequence.end (/home/robialih/nodevenv/appAcademy/10/lib/node_modules/mysql/lib/protocol/sequences/Sequence.js:83:24)
+    at Query._handleFinalResultPacket (/home/robialih/nodevenv/appAcademy/10/lib/node_modules/mysql/lib/protocol/sequences/Query.js:149:8)
+    at Query.EofPacket (/home/robialih/nodevenv/appAcademy/10/lib/node_modules/mysql/lib/protocol/sequences/Query.js:133:8)
+    at Protocol._parsePacket (/home/robialih/nodevenv/appAcademy/10/lib/node_modules/mysql/lib/protocol/Protocol.js:291:23)
+    at Parser._parsePacket (/home/robialih/nodevenv/appAcademy/10/lib/node_modules/mysql/lib/protocol/Parser.js:433:10)
+    at Parser.write (/home/robialih/nodevenv/appAcademy/10/lib/node_modules/mysql/lib/protocol/Parser.js:43:10)
+    at Protocol.write (/home/robialih/nodevenv/appAcademy/10/lib/node_modules/mysql/lib/protocol/Protocol.js:38:16)
